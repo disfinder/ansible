@@ -1,0 +1,4 @@
+---
+- hosts: all
+  roles:
+   - static_ip_adress

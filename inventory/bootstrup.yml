@@ -1,0 +1,17 @@
+[bootstrup_pool:vars]
+ansible_ssh_user=disfinder
+
+[bootstrup_pool]
+10.42.42.1      ansible_ssh_host=10.42.42.1
+10.42.42.2      ansible_ssh_host=10.42.42.2
+10.42.42.3      ansible_ssh_host=10.42.42.3
+# 10.42.42.4      ansible_ssh_host=10.42.42.4
+# 10.42.42.5      ansible_ssh_host=10.42.42.5
+# 10.42.42.6      ansible_ssh_host=10.42.42.6
+# 10.42.42.7      ansible_ssh_host=10.42.42.7
+# 10.42.42.8      ansible_ssh_host=10.42.42.8
+# 10.42.42.9      ansible_ssh_host=10.42.42.9
+# 10.42.42.10     ansible_ssh_host=10.42.42.10
+# 10.42.42.11     ansible_ssh_host=10.42.42.11
+# 10.42.42.12     ansible_ssh_host=10.42.42.12
+# 10.42.42.13     ansible_ssh_host=10.42.42.13

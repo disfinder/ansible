@@ -1,0 +1,14 @@
+---
+# tasks file for static_ip_adress
+
+- name: Init fact
+  set_fact: some_variable=0
+  ignore_errors: yes
+
+- name: Get some test
+  set_fact: some_variable={{ some_variable | int + 1 }}
+  ignore_errors: yes
+
+- name: Out
+  debug: msg="{{ some_variable }}"
+  ignore_errors: yes

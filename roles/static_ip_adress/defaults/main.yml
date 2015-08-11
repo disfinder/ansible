@@ -1,0 +1,4 @@
+---
+# defaults file for static_ip_adress
+#net_nat_3_octets="10.2.0."
+#net_host_3_octets="10.40.0."

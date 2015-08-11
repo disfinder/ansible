@@ -1,0 +1,5 @@
+iface eth0 inet static
+        address {{ net_nat_3_octets}}{{srv_num}}
+        netmask 255.255.255.0
+        gateway {{ net_nat_3_octets}}.1
+        dns-nameservers 8.8.8.8
